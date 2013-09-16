@@ -10,7 +10,9 @@ Usage
 
 To create a snapshot of a device or a file:
 
+```sh
 ./snapshot_device.sh name size file device
+```
 
         name    the name of the NEW snapshot device to create
 
@@ -32,7 +34,9 @@ To create a snapshot of a device or a file:
 
 To remove the created snapshot:
 
+```sh
 ./snapshot_device.sh remove name
+```
 
         remove  just the word 'remove'
         name    the name of the snapshot to remove
@@ -42,7 +46,9 @@ To remove the created snapshot:
 To merge the data from the created snapshot changes back to the
 original device:
 
+```sh
 ./snapshot_device.sh merge name
+```
 
         merge   just the word 'merge'
         name    the name of the snapshot to merge
@@ -51,7 +57,9 @@ original device:
 
 To list the created snapshots:
 
+```sh
 ./snapshot_device.sh ls
+```
 
         ls      just the word 'ls'
 
